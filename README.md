@@ -14,7 +14,7 @@ This repositroy provides all neecessary files and setup to deploy SonarQube whic
 ### 1. Clone the Repository:
 ```bash
 git clone https://github.com/MiksKupfers/miksk1-sonarqube-psql-terraform.git
-cd terraform_mk
+cd miksk1-sonarqube-psql-terraform
 ```
 
 ### 2. Make shell script executable:
