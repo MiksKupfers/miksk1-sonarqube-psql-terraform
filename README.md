@@ -32,7 +32,8 @@ When PSQL gets deployed SonarQube fails to connect to DB and in the SonarQube po
 
 For debugging purproses connection to PSQL was tested inside of Postgresql pod and it is successful. Executing `\l` and `\du` commands in PSQL it returns expected output:
 
-```sonarqube_db=# \l
+```
+sonarqube_db=# \l
                                                        List of databases
      Name     |  Owner   | Encoding | Locale Provider |   Collate   |    Ctype    | Locale | ICU Rules |   Access privileges   
 --------------+----------+----------+-----------------+-------------+-------------+--------+-----------+-----------------------
@@ -48,4 +49,6 @@ sonarqube_db=# \du
                              List of roles
  Role name |                         Attributes                         
 -----------+------------------------------------------------------------
- postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS```
+ postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS
+```
+ Also tried to ping PSQL URL and it returned a successful message...
