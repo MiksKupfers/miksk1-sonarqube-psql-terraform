@@ -49,5 +49,3 @@ sonarqube_db=# \du
  Role name |                         Attributes                         
 -----------+------------------------------------------------------------
  postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS```
-
- Also tried to ping PSQL URL and it returned a successful message...
