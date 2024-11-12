@@ -1,6 +1,6 @@
 # SonarQube with PostgreSQL Deployment Using Terraform
 
-This repositroy provides all neecessary files and setup to deploy SonarQube which is integrated with PSQL DB in a local environment using Minikube using Terraform. Please use `setup.sh` which has been created for an automatic installation.
+This repositroy provides all neecessary files and setup to deploy SonarQube which is integrated with PSQL DB in a local Minikube environment using Terraform. Please use `setup.sh` which has been created for an automatic installation.
 
 ## Deployed and tested on:
 
